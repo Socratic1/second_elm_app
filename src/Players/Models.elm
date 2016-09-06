@@ -2,17 +2,17 @@ module Players.Models exposing (..)
 
 
 type alias PlayerId = 
-    Int
+  Int
 
 type alias Player = 
-    { id : PlayerId
-    , name : String
+  { id : PlayerId
+  , name : String
     , level : Int
-    }
+  }
 
 new : Player
 new = 
-    { id = 0
-    , name = ""
-    , level = 1
-    }
+  { id = 0
+  , name = ""
+  , level = 1
+  }
